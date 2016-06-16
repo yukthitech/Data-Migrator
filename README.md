@@ -5,7 +5,7 @@ DbBackup is a free open source tool for migrating data from source to storage an
 > The overriding design goal for DbBackup is to have a safe secure back up of 
 > data's present in the source. We can migrate data from source to storage, 
 > this can be easily done by just passing the source informations (example: 
-> for database -> driver name, user, password) in a properties file. Please 
+> for database - driver name, user, password) in a properties file. Please 
 > check the section below to get the format of properties file. 
 
 ![](docImages/mig-block.png?raw=true)
@@ -19,14 +19,15 @@ DbBackup is a free open source tool for migrating data from source to storage an
 DbBackup is very easy to use just get the dependencies include it in your pom.xml and use it in your project.
 
 ```sh
-Use (RdbmsDataSource and FileDataStorage) or (FileDataSource and RdbmsDataStorage) to pass your properties file containing information about source and storage. Then pass those source and storage to DataMigrationManager for migrating data from source to storage.
+Use (RdbmsDataSource and FileDataStorage) or (FileDataSource and RdbmsDataStorage) to pass your 
+properties file containing information about source and storage. Then pass those source and storage
+to DataMigrationManager for migrating data from source to storage.
 ```
 
 ![](docImages/mig-class.png?raw=true)
 
 #### command line argument
 ```sh
-From source to storage
 java DataMigration <source properties file path> <storage properties file path>
 ```
 
