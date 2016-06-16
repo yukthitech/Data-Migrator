@@ -19,7 +19,9 @@ DbBackup is a free open source tool for migrating data from source to storage an
 DbBackup is very easy to use just get the dependencies include it in your pom.xml and use it in your project.
 
 ```sh
-Use (RdbmsDataSource and FileDataStorage) or (FileDataSource and RdbmsDataStorage) to pass your properties file containing information about source and storage. Then pass those source and storage to DataMigrationManager for migrating data from source to storage.
+Use (RdbmsDataSource and FileDataStorage) or (FileDataSource and RdbmsDataStorage) 
+to pass your properties file containing information about source and storage. 
+Then pass those source and storage to DataMigrationManager for migrating data from source to storage.
 ```
 
 ![](docImages/mig-class.png?raw=true)
