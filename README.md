@@ -28,7 +28,6 @@ to DataMigrationManager for migrating data from source to storage.
 
 #### command line argument
 ```sh
-From source to storage
 java DataMigration <source properties file path> <storage properties file path>
 ```
 
