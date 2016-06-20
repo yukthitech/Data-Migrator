@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6320" started-at="2016-06-15T09:09:56Z" finished-at="2016-06-15T09:10:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6320" started-at="2016-06-15T09:09:56Z" finished-at="2016-06-15T09:10:03Z">
+      <class name="com.yukthi.tools.db.test.TDataMigTest">
+        <test-method status="PASS" signature="initTables()[pri:0, instance:com.yukthi.tools.db.test.TDataMigTest@7fe8ea47]" name="initTables" is-config="true" duration-ms="3012" started-at="2016-06-15T14:39:56Z" finished-at="2016-06-15T14:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTables -->
+        <test-method status="PASS" signature="testDataMig(java.util.Properties, java.util.List, java.util.List)[pri:0, instance:com.yukthi.tools.db.test.TDataMigTest@7fe8ea47]" name="testDataMig" duration-ms="1995" started-at="2016-06-15T14:40:00Z" data-provider="getProperties" finished-at="2016-06-15T14:40:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{storage.type=com.yukthi.tools.db.file.FileDataStorage.FileDataStorage, fileName=backup.txt}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[DIRECTOR, MANAGER, EMPLOYEE, MEMBERS]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[director1, manager1, manager2, employee1, employee2, employee3, employee4, member1, member2, member3, member4, member5, member6]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataMig -->
+        <test-method status="PASS" signature="dropTables()[pri:0, instance:com.yukthi.tools.db.test.TDataMigTest@7fe8ea47]" name="dropTables" is-config="true" duration-ms="935" started-at="2016-06-15T14:40:02Z" finished-at="2016-06-15T14:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropTables -->
+      </class> <!-- com.yukthi.tools.db.test.TDataMigTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
